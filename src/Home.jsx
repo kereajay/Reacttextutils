@@ -42,11 +42,7 @@ function Home() {
           copied: false
         }
       case "CLEAR_TEXT":
-        return {
-          ...state,
-          text: state.text = "",
-          copied: false
-        }
+        return initialstate
       case "COPY":
         return {
           ...state,
